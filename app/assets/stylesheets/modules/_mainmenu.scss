@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+.mainmenu {
+  height: 1000px;
+  background-color: #434343;
+  padding: 30px 150px;
+
+  &__grp {
+    height: 100%;
+  }
+  &__grp__ntakgrp {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  &__grp__ntakgrp__ntakbtn {
+    height: 130px;
+    width: 130px;
+    background-color: #841914;
+    margin: auto 80px auto 0;
+    text-align: center;
+    filter: drop-shadow(5px 5px 8px #000000);
+  }
+  .NTAK_txt {
+    display: block;
+    color: #1e1e1e;
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    font-size: 35px;
+    line-height: 130px;
+    text-decoration: none;
+  }
+  &__grp__ntakgrp__ntakexp {
+    height: 200px;
+    width: 700px;
+    background-color: #3d7753;
+    margin: auto 0;
+    padding: 0 50px;
+  }
+  &__grp__ntakgrp__ntakexp__txt {
+    height: 200px;
+    width: 700px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  }
+  &__grp__rankgrp {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  &__grp__rankgrp__rankbtn {
+    height: 130px;
+    width: 130px;
+    background-color: #841914;
+    margin: auto 0 auto 80px;
+    filter: drop-shadow(5px 5px 8px #000000);
+    text-align: center;
+    position: relative;
+  }
+  .rank_txt {
+    display: block;
+    color: #1e1e1e;
+    font-size: 35px;
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    line-height: 130px;
+    text-decoration: none;
+  }
+  &__grp__rankgrp__rankexp {
+    height: 200px;
+    width: 700px;
+    background-color: #3d7753;
+    margin: auto 0;
+  }
+  &__grp__rankgrp__rankexp__txt {
+    height: 200px;
+    width: 700px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  }
+  &__grp__srhgrp {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  &__grp__srhgrp__srhbtn {
+    height: 130px;
+    width: 130px;
+    background-color: #841914;
+    margin: auto 80px auto 0;
+    filter: drop-shadow(5px 5px 8px #000000);
+    text-align: center;
+  }
+  .srh_txt {
+    display: block;
+    color: #1e1e1e;
+    font-size: 35px;
+    font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN',sans-serif;
+    line-height: 130px;
+    text-decoration: none;
+  }
+  &__grp__srhgrp__srhexp {
+    height: 200px;
+    width: 700px;
+    background-color: #3d7753;
+    margin: auto 0;
+  }
+  &__grp__srhgrp__srhexp__txt {
+    height: 200px;
+    width: 700px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+  }
+}
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: #993e39;
+  &__copy {
+    color: #ffffff;
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Charter',sans-serif;
+  }
+}
